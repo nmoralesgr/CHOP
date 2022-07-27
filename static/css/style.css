@@ -1,0 +1,181 @@
+body{
+  background-image: linear-gradient(white, #f5c08f, #f79064);
+  background-attachment: fixed;
+  margin: 50px;
+}
+
+/* Homescreen Buttons, Text and Images */
+
+.title{
+  padding-top:60px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+h1{
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 110px;
+  padding-left: 10%;
+}
+
+.soup{
+  max-width: 110%;
+  max-height: 110%;
+  margin-bottom: -5%;
+  margin-top: -25%;
+}
+  
+
+.recipesMain{
+  background-color: #B66830;
+  border: none;
+  font-size: 50px;
+  text-align: center;
+  padding: 15px;
+  padding-right:65px;
+  padding-left:65px;
+  
+}
+
+.mapMain{
+  background-color: #B63030;
+  border: none ;
+  font-size: 50px;
+  text-align: center;
+  padding: 15px;
+  padding-right:100px;
+  padding-left:100px;
+}
+  
+
+.missionMain{
+  background-color: #2C9B37;
+  border: none;
+  font-size: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ /* Map Page  */
+.mapButton{
+  background-color: #B63030;
+  border: none;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  padding-left:5%;
+  padding-right:15%;
+  margin-top:50px;
+
+}
+.M{
+  overflow-x:none;
+
+}
+.map{
+  margin-top:-50px;
+  max-width: 1200px;
+  max-height:1200px
+  
+}
+
+
+.homeButton{
+  max-height: 200px;
+  text-align: right;
+  position: absolute;
+  right:20px;
+}
+ul{
+  text-align: right;
+
+}
+/* Our Mission Page */
+.missionButton{
+  background-color: #2C9B37;
+  border: none;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  padding-left:5%;
+  padding-right:15%;
+  margin-top:50px;
+
+  margin-bottom:50px;
+
+}
+h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+/* Recipe Page  */
+.recipesButton{
+  background-color: #B66830;
+  border: none;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  padding-left:5%;
+  padding-right:15%;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+h5{
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+}
+p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.textbox{
+  font-size:20px;
+  padding-top:20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.character{
+  margin-right: 20px;
+  width: 300px;
+  height: 400px;
+}
+h6{
+  font-size:10px;
+}
+
+
+
+/* Pop up pin */
+#wrapper .text {
+  position:absolute;
+  bottom:100px;
+  left:200px;
+  display:none;
+}
+
+#wrapper:hover .text {
+display:block;
+}
+
+.pin{
+  position: absolute;
+  max-width: 700px;
+  max-height:100px;
+  bottom: 200px;
+  right: 1000px;
+  
+}
